@@ -1,15 +1,29 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
+
+
+memory = []
+memeorySize = 64;
+addBuffer = []
+addBufferSize = 4;
+loadBuffer = []
+loadBufferSize = 4;
+multBuffer = []
+multBufferSize = 4;
+storeBuffer = []
+storeBufferSize = 4;
+
+
 
 const Home = () => {
-    return(
+    return (
         <div className="home">
-        <div>
-            <h2>Home</h2>
+            <div>
+                <h2>Home</h2>
+            </div>
         </div>
-        </div>
-        )
-   
+    )
+
 }
 
 export default Home
