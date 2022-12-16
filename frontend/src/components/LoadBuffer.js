@@ -18,3 +18,5 @@ class LoadBuffer {
         return this.Address;
     }
 }
+
+export default LoadBuffer;

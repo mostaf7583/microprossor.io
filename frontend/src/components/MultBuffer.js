@@ -47,3 +47,5 @@ class MultBuffer {
         this.Qk = Qk;
     }
 }
+
+export default MultBuffer;

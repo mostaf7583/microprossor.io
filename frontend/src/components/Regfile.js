@@ -25,3 +25,5 @@ class RegFile {
         return this.value;
     }
 }
+
+export default RegFile;

@@ -46,3 +46,5 @@ class AddBuffer {
         this.Qk = Qk;
     }
 }
+
+export default AddBuffer;

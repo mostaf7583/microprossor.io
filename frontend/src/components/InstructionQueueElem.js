@@ -62,3 +62,5 @@ class InstructionQueueElem {
         return this.writeResult;
     }
 }
+
+export default InstructionQueueElem;

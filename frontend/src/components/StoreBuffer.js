@@ -32,3 +32,5 @@ class StoreBuffer {
         this.V = V;
     }
 }
+
+export default StoreBuffer;
