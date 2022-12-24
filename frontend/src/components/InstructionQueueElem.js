@@ -1,5 +1,5 @@
 class InstructionQueueElem {
-    constructor(instruction, returnReg, j, k, issue, executionStart, executionEnd, writeResult) {
+    constructor(instruction, returnReg, j, k, issue, executionStart, executionEnd, writeResult, AsscbufferName) {
         this.instruction = instruction;
         this.returnReg = returnReg;
         this.j = j;
@@ -8,6 +8,10 @@ class InstructionQueueElem {
         this.executionStart = executionStart;
         this.executionEnd = executionEnd;
         this.writeResult = writeResult;
+        this.AsscbufferName = AsscbufferName;
+        // added recently
+        this.writeResultPriority = false;
+        this.toBeRemoved = false;
     }
 
     // setters
@@ -35,6 +39,15 @@ class InstructionQueueElem {
     setWriteResult(writeResult) {
         this.writeResult = writeResult;
     }
+    setAsscbufferName(AsscbufferName) {
+        this.AsscbufferName = AsscbufferName;
+    }
+    setWriteResultPriority(WriteResultPriority) {
+        this.writeResultPriority = WriteResultPriority;
+    }
+    setTobeRemoved(toBeRemoved) {
+        this.toBeRemoved = toBeRemoved;
+    }
 
     // getters
     getInstruction() {
@@ -60,6 +73,15 @@ class InstructionQueueElem {
     }
     getWriteResult() {
         return this.writeResult;
+    }
+    getAsscbufferName() {
+        return this.AsscbufferName;
+    }
+    getWriteResultPriority() {
+        return this.writeResultPriority;
+    }
+    getTobeRemoved() {
+        return this.toBeRemoved;
     }
 }
 

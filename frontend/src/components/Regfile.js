@@ -1,6 +1,8 @@
+
 class RegFile {
-    constructor(regName, Qi, value) {
-        this.regName = regName;
+    constructor(Qi, value) {
+
+        this.regName = "F";
         this.Qi = Qi;
         this.value = value;
     }
@@ -16,7 +18,7 @@ class RegFile {
     }
     // getters
     getRegName() {
-        return this.regName;
+        return this.regName.toLowerCase();
     }
     getQi() {
         return this.Qi;
