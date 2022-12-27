@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/mostaf7583/mostaf7583.github.io/static/css/main.e3437bfb.css",
-    "main.js": "/mostaf7583/mostaf7583.github.io/static/js/main.0d82eaca.js",
+    "main.css": "/mostaf7583/mostaf7583.github.io/static/css/main.6ce72d41.css",
+    "main.js": "/mostaf7583/mostaf7583.github.io/static/js/main.71d0ff1c.js",
     "index.html": "/mostaf7583/mostaf7583.github.io/index.html",
-    "main.e3437bfb.css.map": "/mostaf7583/mostaf7583.github.io/static/css/main.e3437bfb.css.map",
-    "main.0d82eaca.js.map": "/mostaf7583/mostaf7583.github.io/static/js/main.0d82eaca.js.map"
+    "main.6ce72d41.css.map": "/mostaf7583/mostaf7583.github.io/static/css/main.6ce72d41.css.map",
+    "main.71d0ff1c.js.map": "/mostaf7583/mostaf7583.github.io/static/js/main.71d0ff1c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3437bfb.css",
-    "static/js/main.0d82eaca.js"
+    "static/css/main.6ce72d41.css",
+    "static/js/main.71d0ff1c.js"
   ]
 }
